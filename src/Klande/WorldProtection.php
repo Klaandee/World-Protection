@@ -6,7 +6,6 @@ namespace Klande;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
-use pocketmine\event\Listener;
 use pocketmine\utils\SingletonTrait;
 
 // WorldProtection Features
@@ -14,7 +13,7 @@ use pocketmine\utils\SingletonTrait;
 use Klande\manager\CommandManager;
 use Klande\events\EventListener;
 
-class WorldProtection extends PluginBase implements Listener {
+class WorldProtection extends PluginBase {
    
    use SingletonTrait;
    
