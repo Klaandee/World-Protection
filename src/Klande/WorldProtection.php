@@ -25,7 +25,7 @@ class WorldProtection extends PluginBase {
       
       CommandManager::register();
       
-      $this->getLogger()->info('WorldProtection By Klande Enable');
+      $this->getLogger()->info('WorldProtection By Klande Enabled');
       
       $this->getServer()->getPluginManager()->registerEvents(new EventListener(), $this);
    }
