@@ -14,10 +14,6 @@ use Klande\events\EventListener;
 
 class WorldProtection extends PluginBase implements Listener {
    
-   public function onLoad(): void {
-      self::setInstance($this);
-   }
-   
    public function onEnable(): void {
       
       $this->getLogger()->info('WorldProtection By Klande Enable');
