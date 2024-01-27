@@ -3,3 +3,6 @@ author: Klande
 version: 1.0
 api: 5.0.0
 main: Klande\WorldProtection
+permissions:
+ worldprotection.info:
+  default: true
