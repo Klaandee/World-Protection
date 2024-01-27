@@ -11,6 +11,7 @@ use pocketmine\utils\SingletonTrait;
 
 // WorldProtection Features
 
+use Klande\manager\CommandManager;
 use Klande\events\EventListener;
 
 class WorldProtection extends PluginBase implements Listener {
